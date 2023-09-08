@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator by Harsh</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+  </head>
+  <body>
     <h1 class="text-center">Calculate here!</h1>
-    <div class="container flex flex-col items-center mx-auto">
-        <div class="row">
-            <input class="input" type="text">
+    <div class="big flex justify">
+      <div class="box">
+        <div class="container flex flex-col items-center mx-auto">
+          <div class="row">
+            <input class="input" type="text" />
+          </div>
+          <div class="row">
+            <button class="button bg-grey">C</button>
+            <button class="button bg-grey">%</button>
+            <button class="button bg-grey">del</button>
+            <button class="button bg-orange">/</button>
+          </div>
+          <div class="row">
+            <button class="button bg-lb font-white">7</button>
+            <button class="button bg-lb font-white">8</button>
+            <button class="button bg-lb font-white">9</button>
+            <button class="button bg-orange">*</button>
+          </div>
+          <div class="row">
+            <button class="button bg-lb font-white">4</button>
+            <button class="button bg-lb font-white">5</button>
+            <button class="button bg-lb font-white">6</button>
+            <button class="button bg-orange">-</button>
+          </div>
+          <div class="row">
+            <button class="button bg-lb font-white">1</button>
+            <button class="button bg-lb font-white">2</button>
+            <button class="button bg-lb font-white">3</button>
+            <button class="button bg-orange">+</button>
+          </div>
+          <div class="row">
+            <button class="button bg-lb font-white">0</button>
+            <button class="button bg-lb font-white">00</button>
+            <button class="button bg-lb font-white">.</button>
+            <button class="button bg-orange">=</button>
+          </div>
         </div>
-        <div class="row">
-            <button class="button">C</button>
-            <button class="button">%</button>
-            <button class="button">M+</button>
-            <button class="button">M-</button>
-        </div>
-        <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">-</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">+</button>
-        </div>
+      </div>
     </div>
+    <footer class="foot text-center">&copy; 2023 Harsh Singh, Inc. All rights reserved.</footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

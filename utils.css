@@ -2,8 +2,20 @@
     text-align: center;
 }
 
-.bg-red {
-    background-color: red;
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-grey {
+    background-color: rgb(163, 162, 162);
+}
+
+.bg-lb {
+    background-color: rgb(87, 85, 85);
+}
+
+.font-white {
+    color: white;
 }
 
 .mx-auto {
@@ -20,4 +32,8 @@
 
 .items-center {
     align-items: center;
+}
+
+.justify {
+    justify-content: center;
 }
