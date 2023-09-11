@@ -9,6 +9,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -146,4 +147,14 @@ h2 {
 
 ::-webkit-scrollbar-thumb {
     background: white;
+}
+
+.foot {
+    margin: 15px 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text_center {
+    text-align: center;
 }

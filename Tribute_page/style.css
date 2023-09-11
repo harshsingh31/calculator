@@ -189,3 +189,13 @@
     text-decoration: none;
     color: var(--tertiary-color);
   }
+
+  .foot {
+    margin: 15px 0;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text_center {
+    text-align: center;
+}
